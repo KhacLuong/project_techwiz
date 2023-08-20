@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+*::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 6rem;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #d2d1d1;
+    border-radius: 14px;
+}
+
+*::-webkit-scrollbar-thumb:horizontal {
+    background-color: #d2d1d1;
+    border-radius: 14px;
+}
+
+*::-webkit-scrollbar:horizontal {
+    height: 0.4rem;
+    padding: 20px;
+    margin: 20px;
+}
+
+:root {
+    --font-body-family: Roboto, sans-serif;
+    --font-body-style: normal;
+    --font-body-weight: 400;
+    --font-heading-family: Roboto, sans-serif;
+    --font-heading-style: normal;
+    --font-heading-weight: 400;
+    --color-base-text: #222222;
+    --color-base-text-rgb: 34, 34, 34;
+    --color-base-background-1: #ffffff;
+    --color-base-background-1-rgb: 255, 255, 255;
+    --color-base-accent-1: #81ba00;
+    --color-base-accent-1-rgb: 129, 186, 0;
+    --color-base-accent-2: #777777;
+    --color-base-accent-2-rgb: 119, 119, 119;
+    --color-base-border: #e5e5e5;
+    --color-base-button-text: #ffffff;
+    --color-base-button-text-hover: #ffffff;
+    --color-base-button-background: #81ba00;
+    --color-base-button-background-hover: #222222;
+    --color-base-text-opacity-10-percent: #e9e9e9;
+    --color-base-text-opacity-20-percent: #d3d3d3;
+    --color-base-text-opacity-55-percent: #858585;
+    --color-base-text-opacity-85-percent: #434343;
+    --color-base-accent-1-opacity-10-percent: #f2f8e6;
+    --color-base-accent-2-opacity-10-percent: #f1f1f1;
+    --color-rating-empty: #d6d6d6;
+    --color-rating-filled: #f2a935;
+}
+
+html {
+    box-sizing: border-box !important;
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-family: var(--font-body-family);
+    font-style: var(--font-body-style);
+    font-weight: var(--font-body-weight);
+    color: var(--color-base-text);
+}
